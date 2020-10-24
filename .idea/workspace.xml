@@ -7,6 +7,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jKMbRYhXaeAh2WmS8MCHDvoKx3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -15,7 +22,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\song-bird\src\assets\img" />
+      <recent name="C:\Projects\song-bird\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -25,11 +39,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603548400679</updated>
-      <workItem from="1603548401729" duration="351000" />
+      <workItem from="1603548401729" duration="8325000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1075" y="354" key="#File_Watchers" timestamp="1603551787142">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1075" y="354" key="#File_Watchers/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603551787142" />
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603551796360">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603551796360" />
+    <state x="-1291" y="298" key="EditFileWatcherDialog" timestamp="1603551765464">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1291" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603551765464" />
   </component>
 </project>
