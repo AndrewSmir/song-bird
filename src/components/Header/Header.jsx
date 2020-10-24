@@ -2,8 +2,8 @@ import React from "react"
 import logo from "../../assets/img/logo.svg"
 
 const Header = (props) => {
-    const {score, birdsList} = props
-    const level = 1
+    const {score, birdsList, currentLevel} = props
+    const level = currentLevel
 
     return (
         <div className="header">
@@ -16,7 +16,7 @@ const Header = (props) => {
             <div className="header__bot">
                 <ul>
                     {birdsList.map((bird, index) => <li key={index}
-                                                        style={level === index + 1 ? {backgroundColor: '#007c5d'} : null}>
+                                                        style={level === index ? {backgroundColor: '#007c5d'} : null}>
                         {bird}
                     </li>)}
                 </ul>
