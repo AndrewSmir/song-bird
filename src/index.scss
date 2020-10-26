@@ -1,81 +1,7 @@
+@import "nullstyle";
+
 $fontColor: white;
 $marginBottom: 25px;
-
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-:focus, :active {
-  outline: none;
-}
-
-a:focus, a:active {
-  outline: none;
-}
-
-nav, footer, header, aside {
-  display: block;
-}
-
-input, button, textarea {
-  font-family: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;
-  font-weight: 400;
-}
-
-body {
-  margin: 0;
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #222;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -138,6 +64,8 @@ code {
 
   div img {
     border-radius: 10px;
+    width: 200px;
+    height: 155px;
   }
 }
 
@@ -149,4 +77,93 @@ code {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.answerContainer {
+  display: flex;
+}
+
+.birdsList {
+  border: 1px solid #555;
+  flex: 1;
+  max-width: 50%;
+  margin-right: 15px;
+}
+
+.birdItem {
+  padding: .85rem 1.25rem;
+  background-color: #303030;
+  border-bottom: 1px solid #555;
+
+  &:first-child {
+    border-radius: 0.25rem 0.25rem 0 0;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+    border-radius: 0 0 0.25rem 0.25rem;
+  }
+
+  &:hover {
+    background-color: #444;
+    cursor: pointer;
+  }
+}
+
+.answerBtn {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  background-color: #666;
+}
+
+.birdDescription {
+  flex: 1;
+  max-width: 50%;
+  margin-left: 15px;
+  background-color: #303030;
+  border: 1px solid #555;
+  padding: 1rem;
+
+  img {
+    border-radius: 10px;
+    width: 200px;
+    height: 155px;
+    margin-right: 2rem;
+  }
+}
+
+.birdDescription__top {
+  display: flex;
+}
+
+.birdDescription__top__data {
+  flex: 1;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.button {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #303030;
+  height: 25px;
+  border-radius: 0.25rem;
+  border: 1px solid #555;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #00bc8c;
+}
+
+audio {
+  margin-top: 15px;
 }

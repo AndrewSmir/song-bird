@@ -12,7 +12,7 @@ const HeaderContainer = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        score: state.headerReducer.score,
+        score: state.controlReducer.score,
         birdsList: state.headerReducer.birdsList,
         currentLevel: state.controlReducer.currentLevel
     }

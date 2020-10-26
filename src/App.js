@@ -1,19 +1,44 @@
 import React from "react"
-import {Provider} from "react-redux";
+import {connect, Provider} from "react-redux";
 import store from "./redux/store";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import QuestionContainer from "./components/Question/QuestionContainer";
+import AnswerContainer from "./components/Answer/AnswerContainer";
+import FooterContainer from "./components/Footer/FooterContainer";
+import ResultContainer from "./components/Result/ResultContainer";
 
-function App() {
+function App(props) {
+
+    const {currentLevel} = props
+    console.log(currentLevel);
+
     return (
-        <Provider store={store}>
-            <div className="container">
-                <HeaderContainer/>
-                <QuestionContainer/>
-                <div>footer</div>
-            </div>
-        </Provider>
+        <div className="container">
+            {currentLevel === 6 ?
+                <ResultContainer/> :
+                <>
+                    <HeaderContainer/>
+                    <QuestionContainer/>
+                    <AnswerContainer/>
+                    <FooterContainer/>
+                </>
+            }
+        </div>
     );
 }
 
-export default App;
+const mapStateToProps = (state) => {
+    return {
+        currentLevel: state.controlReducer.currentLevel
+    }
+}
+
+const ConnectedApp = connect(mapStateToProps, {})(App)
+
+export const MainApp = () => {
+    return (
+        <Provider store={store}>
+            <ConnectedApp/>
+        </Provider>
+    )
+}
