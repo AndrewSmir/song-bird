@@ -10,7 +10,6 @@ import ResultContainer from "./components/Result/ResultContainer";
 function App(props) {
 
     const {currentLevel} = props
-    console.log(currentLevel);
 
     return (
         <div className="container">

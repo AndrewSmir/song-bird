@@ -7,7 +7,7 @@ const AudioPlayer = (props) => {
         <ReactAudioPlayer
             src={props.src}
             controls
-            style={{width: '100%'}}
+            style={{width: '100%', minWidth:'260px'}}
         />
     )
 }
