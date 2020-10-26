@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/song-bird/static/css/main.32f9a64d.chunk.css",
+    "main.js": "/song-bird/static/js/main.da4c8ad9.chunk.js",
+    "main.js.map": "/song-bird/static/js/main.da4c8ad9.chunk.js.map",
+    "runtime-main.js": "/song-bird/static/js/runtime-main.79046116.js",
+    "runtime-main.js.map": "/song-bird/static/js/runtime-main.79046116.js.map",
+    "static/js/2.68c3301b.chunk.js": "/song-bird/static/js/2.68c3301b.chunk.js",
+    "static/js/2.68c3301b.chunk.js.map": "/song-bird/static/js/2.68c3301b.chunk.js.map",
+    "static/js/3.95ceb810.chunk.js": "/song-bird/static/js/3.95ceb810.chunk.js",
+    "static/js/3.95ceb810.chunk.js.map": "/song-bird/static/js/3.95ceb810.chunk.js.map",
+    "index.html": "/song-bird/index.html",
+    "static/css/main.32f9a64d.chunk.css.map": "/song-bird/static/css/main.32f9a64d.chunk.css.map",
+    "static/js/2.68c3301b.chunk.js.LICENSE.txt": "/song-bird/static/js/2.68c3301b.chunk.js.LICENSE.txt",
+    "static/media/bird.06a46938.cbd08c29.jpg": "/song-bird/static/media/bird.06a46938.cbd08c29.jpg",
+    "static/media/logo.c3c0be46.svg": "/song-bird/static/media/logo.c3c0be46.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79046116.js",
+    "static/js/2.68c3301b.chunk.js",
+    "static/css/main.32f9a64d.chunk.css",
+    "static/js/main.da4c8ad9.chunk.js"
+  ]
+}
