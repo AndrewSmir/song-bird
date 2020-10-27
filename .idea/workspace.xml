@@ -26,9 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64946f7d-ebc1-49d1-be70-d114f1c51eec" name="Default Changelist" comment="123">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AudioPlayer/AudioPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioPlayer/AudioPlayer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <recent name="C:\Projects\song-bird\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -91,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +105,7 @@
       <updated>1603548400679</updated>
       <workItem from="1603548401729" duration="50799000" />
       <workItem from="1603711653224" duration="990000" />
-      <workItem from="1603714065966" duration="3991000" />
+      <workItem from="1603714065966" duration="6905000" />
     </task>
     <servers />
   </component>
@@ -166,22 +165,22 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1291" y="298" key="EditFileWatcherDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603551765464" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1603714658701">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1603785340453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603714658701" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1603714658700">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603785340453" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1603785340453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603714658700" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1603714658700">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603785340453" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1603785340452">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603714658700" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1603714658700">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603785340452" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1603785340453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603714658700" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603785340453" />
     <state x="-1459" y="165" key="SettingsEditor" timestamp="1603714086146">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
